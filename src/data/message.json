@@ -1,0 +1,14 @@
+{
+	"editor": {
+		"Vim": "Practitioner of the dark arts, your people can move throughout the mystical codebase with only your hands. But you've traded speed for friends and are a nomadic people, uncomfortable in large groups.",
+		"Sublime Text": "Once master of everything your kingdom was destroyed and now your numbers are dwindling. You seek to rebuild your once great people, but at what cost? It's a price not everyone might be willing to pay.",
+		"VS Code": "Your people recently seized power. With that power came more and more followers. Will you learn from the rulers before you, or will your people continue the cycle and eventually be replaced as well?",
+		"Emacs": "Your people also practice the dark arts but rarely without a collection of scrolls and potions at your side. You a fine hiding in the shadows and letting others steal the glory and praise because you know that's not where true power lies."
+	},
+	"language": {
+		"javascript": "You're one of the cool kids or so racked with FOMO that you're trying desperately to keep up with the cool kids.",
+		"PHP": "\"Make websites,\" they said. \"25% of the internet runs on WordPress,\" they said. Now you just wish you were a cool kid.",
+		"Java": "Sometimes people follow their dreams, in your case you listened to your parents and chose stability over greatness. Now being the master of coolness is too far out of reach.",
+		"C++": "\"One day I'll make games,\" you thought. Now you're stuck in a corporate job managing 20 year old code hoping one day to wrap everything in tests and leave it all behind."
+	}
+}

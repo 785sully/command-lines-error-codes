@@ -1,0 +1,78 @@
+.nes-container {
+	width: 1000px;
+	max-width: 100%;
+	margin: auto;
+}
+header {
+	padding-top: 40px;
+}
+h1 {
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+img.ampersand {
+	width: 50px;
+	display: inline-block;
+	margin: 0 10px;
+}
+p {
+	margin-top: 1rem;
+}
+.left-side {
+	display: block;
+}
+.left-side img {
+	width: 200px;
+	image-rendering: pixelated;
+}
+.right-side {
+	display: block;
+}
+
+@media screen and (min-width: 768px) {
+	.left-side {
+		width: 25%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.right-side {
+		width: 75%;
+		display: inline-block;
+	}
+	label {
+		width: calc(50% - 10px);
+		margin: 5px;
+	}
+}
+.dialog-wrapper {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.7);
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+dialog {
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 20%;
+	display: block;
+	width: -moz-fit-content;
+	width: -webkit-fit-content;
+	width: fit-content;
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: fit-content;
+	padding: 1em;
+	margin: auto;
+	color: #000;
+	background: #fff;
+	border: solid;
+}
+.nes-icon.coin {
+	cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC)
+			14 0,
+		pointer;
+}
