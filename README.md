@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Command Lines & Error Codes
 
 This project sprung from the question 'What if developers had their own roleplaying game?
 
